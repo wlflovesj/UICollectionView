@@ -16,9 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationController.navigationBarHidden=YES;
+    self.view.backgroundColor=[UIColor cyanColor];
+    UIButton *button=[UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame=CGRectMake(0, 20, 40, 50);
+    [button setTitle:@"fanhui" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(onbutton) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
     // Do any additional setup after loading the view.
 }
+-(void)onbutton{
 
+    NSLog(@"%@",self.navigationController);
+    [self.navigationController popViewControllerAnimated:YES];
+    
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

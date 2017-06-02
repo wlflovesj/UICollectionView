@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42CFBDEE6D5236CBFDFA43FD /* libPods-UICollectionView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B516D1C2B9536801E89C2D8 /* libPods-UICollectionView.a */; };
+		5B8028AA1EDFB67000DF0805 /* latestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8028A71EDFB67000DF0805 /* latestModel.m */; };
+		5B8028AB1EDFB67000DF0805 /* WLFHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8028A91EDFB67000DF0805 /* WLFHTTP.m */; };
+		5B8028AE1EDFB84800DF0805 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8028AD1EDFB84800DF0805 /* testViewController.m */; };
+		5B8028B11EE0004A00DF0805 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8028B01EE0004A00DF0805 /* SecondViewController.m */; };
 		5BA533B71EDE5ECF00AA4492 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA533B61EDE5ECF00AA4492 /* main.m */; };
 		5BA533BA1EDE5ECF00AA4492 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA533B91EDE5ECF00AA4492 /* AppDelegate.m */; };
 		5BA533BD1EDE5ECF00AA4492 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA533BC1EDE5ECF00AA4492 /* ViewController.m */; };
@@ -15,6 +20,7 @@
 		5BA533C51EDE5ECF00AA4492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA533C31EDE5ECF00AA4492 /* LaunchScreen.storyboard */; };
 		5BA533D01EDE5ECF00AA4492 /* UICollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA533CF1EDE5ECF00AA4492 /* UICollectionViewTests.m */; };
 		5BA533DB1EDE5ED000AA4492 /* UICollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA533DA1EDE5ED000AA4492 /* UICollectionViewUITests.m */; };
+		5BA533EA1EDE6B4300AA4492 /* TopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA533E91EDE6B4300AA4492 /* TopScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B516D1C2B9536801E89C2D8 /* libPods-UICollectionView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UICollectionView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE3F97B3B55514D7F0AF99B /* Pods-UICollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-UICollectionView/Pods-UICollectionView.release.xcconfig"; sourceTree = "<group>"; };
+		5B8028A51EDFB67000DF0805 /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		5B8028A61EDFB67000DF0805 /* latestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = latestModel.h; sourceTree = "<group>"; };
+		5B8028A71EDFB67000DF0805 /* latestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = latestModel.m; sourceTree = "<group>"; };
+		5B8028A81EDFB67000DF0805 /* WLFHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLFHTTP.h; sourceTree = "<group>"; };
+		5B8028A91EDFB67000DF0805 /* WLFHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLFHTTP.m; sourceTree = "<group>"; };
+		5B8028AC1EDFB84800DF0805 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		5B8028AD1EDFB84800DF0805 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
+		5B8028AF1EE0004A00DF0805 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5B8028B01EE0004A00DF0805 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		5BA533B21EDE5ECF00AA4492 /* UICollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA533B61EDE5ECF00AA4492 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5BA533B81EDE5ECF00AA4492 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +68,9 @@
 		5BA533D61EDE5ED000AA4492 /* UICollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA533DA1EDE5ED000AA4492 /* UICollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewUITests.m; sourceTree = "<group>"; };
 		5BA533DC1EDE5ED000AA4492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA533E81EDE6B4300AA4492 /* TopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopScrollView.h; sourceTree = "<group>"; };
+		5BA533E91EDE6B4300AA4492 /* TopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopScrollView.m; sourceTree = "<group>"; };
+		BB071A985D39E9B41D67B20B /* Pods-UICollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UICollectionView/Pods-UICollectionView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CFBDEE6D5236CBFDFA43FD /* libPods-UICollectionView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +106,8 @@
 				5BA533CE1EDE5ECF00AA4492 /* UICollectionViewTests */,
 				5BA533D91EDE5ED000AA4492 /* UICollectionViewUITests */,
 				5BA533B31EDE5ECF00AA4492 /* Products */,
+				BFC1FE573C45B6E5448E00C0 /* Pods */,
+				A3D219920BA3D0C7AB83294B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +128,17 @@
 				5BA533B91EDE5ECF00AA4492 /* AppDelegate.m */,
 				5BA533BB1EDE5ECF00AA4492 /* ViewController.h */,
 				5BA533BC1EDE5ECF00AA4492 /* ViewController.m */,
+				5B8028AC1EDFB84800DF0805 /* testViewController.h */,
+				5B8028AD1EDFB84800DF0805 /* testViewController.m */,
+				5B8028AF1EE0004A00DF0805 /* SecondViewController.h */,
+				5B8028B01EE0004A00DF0805 /* SecondViewController.m */,
+				5BA533E81EDE6B4300AA4492 /* TopScrollView.h */,
+				5BA533E91EDE6B4300AA4492 /* TopScrollView.m */,
+				5B8028A51EDFB67000DF0805 /* API.h */,
+				5B8028A61EDFB67000DF0805 /* latestModel.h */,
+				5B8028A71EDFB67000DF0805 /* latestModel.m */,
+				5B8028A81EDFB67000DF0805 /* WLFHTTP.h */,
+				5B8028A91EDFB67000DF0805 /* WLFHTTP.m */,
 				5BA533BE1EDE5ECF00AA4492 /* Main.storyboard */,
 				5BA533C11EDE5ECF00AA4492 /* Assets.xcassets */,
 				5BA533C31EDE5ECF00AA4492 /* LaunchScreen.storyboard */,
@@ -140,6 +174,23 @@
 			path = UICollectionViewUITests;
 			sourceTree = "<group>";
 		};
+		A3D219920BA3D0C7AB83294B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B516D1C2B9536801E89C2D8 /* libPods-UICollectionView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFC1FE573C45B6E5448E00C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB071A985D39E9B41D67B20B /* Pods-UICollectionView.debug.xcconfig */,
+				4AE3F97B3B55514D7F0AF99B /* Pods-UICollectionView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BA533DF1EDE5ED000AA4492 /* Build configuration list for PBXNativeTarget "UICollectionView" */;
 			buildPhases = (
+				5E4BE62E168DA9F5CB416E5D /* [CP] Check Pods Manifest.lock */,
 				5BA533AE1EDE5ECF00AA4492 /* Sources */,
 				5BA533AF1EDE5ECF00AA4492 /* Frameworks */,
 				5BA533B01EDE5ECF00AA4492 /* Resources */,
+				83376DA47333390B5D69958E /* [CP] Embed Pods Frameworks */,
+				C27B408A283379C05657ECE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +322,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E4BE62E168DA9F5CB416E5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83376DA47333390B5D69958E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UICollectionView/Pods-UICollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C27B408A283379C05657ECE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UICollectionView/Pods-UICollectionView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BA533AE1EDE5ECF00AA4492 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,6 +378,11 @@
 				5BA533BD1EDE5ECF00AA4492 /* ViewController.m in Sources */,
 				5BA533BA1EDE5ECF00AA4492 /* AppDelegate.m in Sources */,
 				5BA533B71EDE5ECF00AA4492 /* main.m in Sources */,
+				5B8028AB1EDFB67000DF0805 /* WLFHTTP.m in Sources */,
+				5B8028B11EE0004A00DF0805 /* SecondViewController.m in Sources */,
+				5B8028AA1EDFB67000DF0805 /* latestModel.m in Sources */,
+				5B8028AE1EDFB84800DF0805 /* testViewController.m in Sources */,
+				5BA533EA1EDE6B4300AA4492 /* TopScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +529,7 @@
 		};
 		5BA533E01EDE5ED000AA4492 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB071A985D39E9B41D67B20B /* Pods-UICollectionView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UICollectionView/Info.plist;
@@ -433,6 +541,7 @@
 		};
 		5BA533E11EDE5ED000AA4492 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE3F97B3B55514D7F0AF99B /* Pods-UICollectionView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UICollectionView/Info.plist;
@@ -507,6 +616,7 @@
 				5BA533E11EDE5ED000AA4492 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BA533E21EDE5ED000AA4492 /* Build configuration list for PBXNativeTarget "UICollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +625,7 @@
 				5BA533E41EDE5ED000AA4492 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BA533E51EDE5ED000AA4492 /* Build configuration list for PBXNativeTarget "UICollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +634,7 @@
 				5BA533E71EDE5ED000AA4492 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
