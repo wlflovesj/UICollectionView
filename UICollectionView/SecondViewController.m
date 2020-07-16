@@ -27,7 +27,11 @@
 
     
     NSString *str = @"dfdf";
+
     NSString *str4 = @"dfdfaaaa";
+
+    NSString *str2 = @"333";
+
 
 }
 -(void)onbutton{
