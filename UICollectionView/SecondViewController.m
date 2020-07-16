@@ -34,7 +34,7 @@
 
     NSString *str5 = @"fdaffdddd";
 
-    NSSting *str4 = @"fdsaf";
+    NSString *str6 = @"fdsaf";
 
 
 }
