@@ -24,6 +24,7 @@
     [button addTarget:self action:@selector(onbutton) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
     // Do any additional setup after loading the view.
+    NSString *str = @"dddddd";
 }
 -(void)onbutton{
 
