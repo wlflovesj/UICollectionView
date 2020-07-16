@@ -32,6 +32,7 @@
 
     NSString *str2 = @"333";
 
+    NSSting *str4 = @"fdsaf";
 
 }
 -(void)onbutton{
