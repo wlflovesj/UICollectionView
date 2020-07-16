@@ -32,6 +32,7 @@
 
     NSString *str2 = @"333";
 
+    NSString *str5 = @"fdaffdddd";
 
 }
 -(void)onbutton{
