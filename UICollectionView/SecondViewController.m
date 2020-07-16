@@ -34,6 +34,9 @@
 
     NSString *str5 = @"fdaffdddd";
 
+    NSSting *str4 = @"fdsaf";
+
+
 }
 -(void)onbutton{
 
